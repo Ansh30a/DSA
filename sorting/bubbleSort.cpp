@@ -3,11 +3,15 @@ using namespace std;
 
 void bubbleSort(int arr[], int n) {
     for (int i = n - 1; i > 0; i--) {
+        int swapped = 0;
         for (int j = 0; j < i; j++) {
             if (arr[j] > arr[j + 1]) {
                 swap(arr[j], arr[j + 1]);
+                swapped = 1;
             }
         }
+        if (swapped == 0) { break; }    // ---- Optimisation to go from O(n^2) to O(n)
+        cout << "runs\n";
     }
 }
 
