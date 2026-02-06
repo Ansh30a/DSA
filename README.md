@@ -1,1 +1,1 @@
-Repo for practicing with Striver's A2Z DSA playlist.
+Repository for practicing questions with Striver's A2Z DSA playlist.
