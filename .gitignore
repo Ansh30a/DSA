@@ -1,2 +1,17 @@
 *.exe
 .idea
+
+*.out
+a.out
+
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.out
+
+# Ignore files without extension
+*
+!*/
+!*.cpp
+!*.md
+!*.gitignore
